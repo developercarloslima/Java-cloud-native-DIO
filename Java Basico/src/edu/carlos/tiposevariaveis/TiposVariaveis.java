@@ -33,15 +33,24 @@ public class TiposVariaveis {
         // Variáveis
         int idade = 30; // Variável inteira
         String nome = "Carlos"; // Variável string
+        double altura = 1.75; // Variável double
+        boolean estudante = false; // Variável booleana
+        System.out.println("Idade: " + idade);
+        System.out.println("Nome: " + nome);
+        System.out.println("Altura: " + altura);
+        System.out.println("Estudante: " + estudante);
 
         //casting 
         // Casting de int para byte
         byte idadeByte = (byte) idade; // Casting explícito 
+        System.out.println("Idade em byte: " + idadeByte); // Pode ocorrer perda de dados se o valor for maior que 127
         // Casting de double para int
         int idadeInt = (int) d; // Casting explícito
-        
+        System.out.println("Idade em int: " + idadeInt); // Pode ocorrer perda de dados se o valor for decimal
         // constantes
         final int ANO_NASCIMENTO = 1990; // Constante inteira
         final String NOME_COMPLETO = "Carlos Lima"; // Constante string
+        System.out.println("Ano de nascimento: " + ANO_NASCIMENTO);
+        System.out.println("Nome completo: " + NOME_COMPLETO);
     }
 }
