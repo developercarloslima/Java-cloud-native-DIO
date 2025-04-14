@@ -22,11 +22,15 @@ public class Operadores {
         boolean menorQue = a < b; // Menor que
         boolean igual = a == b; // Igualdade
         boolean diferente = a != b; // Diferente
+        boolean maiorOuIgual = a >= b; // Maior ou igual
+        boolean menorOuIgual = a <= b; // Menor ou igual
 
         System.out.println("Maior que: " + maiorQue);
         System.out.println("Menor que: " + menorQue);
         System.out.println("Igual: " + igual);
         System.out.println("Diferente: " + diferente);
+        System.out.println("Maior ou igual: " + maiorOuIgual);
+        System.out.println("Menor ou igual: " + menorOuIgual);
 
         // Operadores Lógicos
         boolean e = (a > 5 && b < 30); // E lógico
